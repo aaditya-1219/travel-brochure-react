@@ -8,13 +8,14 @@ export default function Container() {
     return (
       <div key={index}>
         <Card
-          location={obj.location}
-          link={obj.link}
-          title={obj.title}
-          dateStart={obj.dateStart}
-          dateEnd={obj.dateEnd}
-          desc={obj.desc}
-          img={obj.img}
+          {...obj}
+          // location={obj.location}
+          // link={obj.link}
+          // title={obj.title}
+          // dateStart={obj.dateStart}
+          // dateEnd={obj.dateEnd}
+          // desc={obj.desc}
+          // img={obj.img}
         />
         {index !== data.length-1 && <div className="divider"></div>}
     </div>

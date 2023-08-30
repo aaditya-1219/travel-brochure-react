@@ -68,6 +68,15 @@ span {
     height: 1rem;
 }
 
+a{
+    color: grey;
+}
+
+#footer a{
+    color: white;
+    padding: 10px;
+}
+
 .map-link{
     margin-left: 1rem;
 }
